@@ -1,0 +1,13 @@
+{
+  "test-1": {
+    "name": "test-1",
+    "instance": "ins-1",
+    "owner": "user-1",
+    "access": [
+      {
+        "email": "",
+        "role": ""
+      }
+    ]
+  }
+}
