@@ -1,0 +1,11 @@
+{
+  "name": "{{ database_name }}",
+  "instance": "{{ instance }}",
+  "owner": "{{ owner }}",
+  "access": [
+    {
+      "email": "serviceAccount:{{ service_account_email }}",
+      "role": "roles/spanner.databaseUser"
+    }
+  ]
+}
